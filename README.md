@@ -16,7 +16,7 @@ You are welcome to search for any information you may need.
 
 ## Getting started
 
-Download this repo as a ZIP file.
+Download this repo as a ZIP file. https://github.com/cenonsorio/sorio-js-exercise
 
 Unpack, and use this respository to get yourself up and running. We've included some basic styles to get you started.
 
