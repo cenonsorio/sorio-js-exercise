@@ -1,0 +1,20 @@
+.card {
+    width: 50px;
+    height: 70px;
+    padding: 2rem;
+    border: 1px solid #efefef;
+    border-radius: 5px;
+    box-sizing: border-box;
+    float: left;
+    cursor: pointer;
+}
+
+.card.inactive {
+    background-color: #FF0000;
+    color: #FF0000;
+}
+
+.card.active {
+    background-color: #008000;
+    color: #F8F8F8;
+}

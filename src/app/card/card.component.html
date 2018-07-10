@@ -1,0 +1,20 @@
+
+<div *ngFor="let cardStatus of cardDetails; let i = index" (click)="cardOnClick(i, cardStatus)" class="card {{cardStatus}}">
+  <span>{{i + 1}}</span>
+</div>
+
+<!--<div (click)="cardOnClick(1)" class="card {{cardStatus}}">-->
+  <!--<span>1</span>-->
+<!--</div>-->
+
+<!--<div (click)="cardOnClick(2)" class="card {{cardStatus}}">-->
+  <!--<span>2</span>-->
+<!--</div>-->
+
+<!--<div (click)="cardOnClick(3)" class="card {{cardStatus}}">-->
+  <!--<span>3</span>-->
+<!--</div>-->
+
+<!--<div (click)="cardOnClick(4)" class="card {{cardStatus}}">-->
+  <!--<span>4</span>-->
+<!--</div>-->
